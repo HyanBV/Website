@@ -427,7 +427,7 @@ section .title::after {
 
 /* Education Section Styling */
 .education .title::after {
-	content: "WHERE WAS I?";
+	content: "WHAT I DID";
 }
 
 .education .carousel .card {
