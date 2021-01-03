@@ -113,11 +113,13 @@ html {
 	pointer-events: auto;
 }
 
+
 /* Home Section Styling */
 .home {
 	display: flex;
 	/* Edit This Image ASAP! */
-	background: url('https://images.unsplash.com/photo-1473107522457-4ed378e0c05f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80') no-repeat center; /* Edit this image ASAP! */
+	background: linear-gradient(rgba(0,0,0,.2), rgba(255,255,255,.7)), url('https://images.unsplash.com/photo-1601271249129-fd8f5d0f880f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1412&q=80') no-repeat center; /* Edit this image ASAP! */
+	object-fit: cover;
 	height: 100vh;
 	color: var(--SecondaryColor);
 	min-height: 500px;
