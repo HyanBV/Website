@@ -58,3 +58,41 @@ $(document).ready(() => {
 		}
 	});
 });
+
+window.onload = function() {
+	Particles.init({
+    selector: '.background',
+    maxParticles: '180',
+    connectParticles: true,
+    speed: 1.0,
+    color: '#ffffff',
+
+    //Breakpoints...
+    responsive: [
+    	{
+    		breakpoint: 768,
+    		options: {
+    			maxParticles: '110',
+			    connectParticles: true,
+			    speed: 1.0,
+    		}
+    	},
+    	{
+    		breakpoint: 425,
+    		options: {
+    			maxParticles: '60',
+			    connectParticles: true,
+			    speed: 1.0,
+    		}
+    	},
+    	{
+    		breakpoint: 320,
+    		options: {
+    			maxParticles: '35',
+			    connectParticles: true,
+			    speed: 1.0,
+    		}
+    	}
+    ]
+  });
+};
